@@ -1,0 +1,13 @@
+body {
+    background-color: linen;
+}
+
+.one {
+    width: 60%;
+    float: left;
+}
+
+.two {
+    width: 30%;
+    margin: 0;
+}

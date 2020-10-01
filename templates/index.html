@@ -1,0 +1,49 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block main %}
+<div class="jumbotron">
+  <div class="row">
+    <div class="container col-8">
+      <h1 class="display-3">Welcome!</h1>
+      <p>Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder.</p>
+    </div>
+    <div class="container col-4"> <!--for later: add jinja2 to replace login section with profile overview-->
+      <form action="#" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text">
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="password" placeholder="Password" type="password">
+        </div>
+        <div class="btn-toolbar justify-content-between" role="toolbar">
+          <a class="btn btn-info btn-lg mr-2" href="#" role="button">Log in</a>
+          <a class="btn btn-info btn-lg mr-2" href="#" role="button">Sign up</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Heading</h2>
+      <p>Inner text.</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View</a></p>
+    </div>
+    <div class="col-md-4">
+      <h2>Heading</h2>
+      <p>Inner text.</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View</a></p>
+    </div>
+    <div class="col-md-4">
+      <h2>Heading</h2>
+      <p>Inner text.</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View</a></p>
+    </div>
+  </div>
+</div>
+{% endblock %}

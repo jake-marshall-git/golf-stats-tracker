@@ -1,0 +1,3 @@
+Final Project -- Golf Handicap Calculator/Score Tracker
+
+As an avid golfer, I like to be able to track my scores and my handicap throughout the golf season. If you want an official handicap that stays with you, a golfer typically needs to have a golf club membership. My goal for this project is to create a web app where users can log in, enter their rounds (and stats during those rounds), and track a handicap for personal use.
